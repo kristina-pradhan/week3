@@ -7,7 +7,18 @@
  */
 public class workshop
 {
+    int age; //instance variable
+    static int qty; // static variable
     public static void main (String[] args){
-    System.out.println("learning git with bluej");
+    int agr=10; //local variable
+    System.out.println(agr);
+    
+    // <className> <variable>=new <className>();
+    
+    workshop w1=new workshop();
+    
+    
+    System.out.println(w1.age);
+    System.out.println(qty);
 }
 }
